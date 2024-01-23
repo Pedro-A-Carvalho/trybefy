@@ -1,0 +1,1 @@
+SELECT U.full_name as 'Nome completo', U.email as 'E-mail', P.name as 'Plano' FROM users U INNER JOIN plans P ON U.plan_id = P.id ORDER BY U.full_name;
